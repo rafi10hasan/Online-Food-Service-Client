@@ -1,0 +1,56 @@
+[
+    {
+        "service_id": "01",
+        "title": "Italian Pasta Basta",
+        "img": "https://img.freepik.com/free-photo/penne-pasta-with-tomato-sauce-with-sausage-tomatoes-green-basil-decorated-frying-pan-wooden-table_2829-20103.jpg?w=996&t=st=1667926772~exp=1667927372~hmac=6e2f4fcb84ceab3b6fde72562f7cb6f93140e535f8d936620eb7f009eb1857bf",
+        "price": "10$",
+        "description": "These easy Italian pasta recipes are some of our most favorite staples. They’re economical, wonderfully delicious and make great weeknight meals perfect for the whole family.Whatever you’re looking for quick pasta dishes ready in no time, or nourishing one-pot pasta recipes, I’ve got you covered with our traditional family favorites.Generally speaking, Italians eat pasta almost everyday. Pasta is part of our traditions, a black canvas that can be dressed with nearly everything, from vegetables, to meat, from legumes to what you’ve got in the fridge at that moment.Being Italian myself, I’ve grown up eating pasta. It’s so convenient, filling, and makes great family meals with a handful of ingredients."
+       
+    },
+
+    {
+    
+        "service_id": "02",
+        "title": "Italian Pizza",
+        "img": "https://img.freepik.com/free-photo/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden_141793-2158.jpg?w=996&t=st=1667926937~exp=1667927537~hmac=1ddc78212a21a3b254e7c9c23d7788b6d034b6046cae9ad47469a3638bb8c625",
+        "price": "15$",
+        "description": "pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese, and many other ingredients, baked quickly—usually, in a commercial setting, using a wood-fired oven heated to a very high temperature—and served hot.One of the simplest and most traditional pizzas is the Margherita, which is topped with tomatoes or tomato sauce, mozzarella, and basil.Popular legend relates that it was named for Queen Margherita, wife of Umberto I, who was said to have liked its mild fresh flavour."
+       
+    },
+    {
+      
+        "service_id": "03",
+        "title": "Hydrabadi Biryani",
+        "img": "https://img.freepik.com/premium-photo/delicious-traditional-biryani-pakistani-indian-food_162831-82.jpg?w=996",
+        "price": "20$",
+        "description": "Hyderabadi chicken biryani is an aromatic, mouth watering and authentic Indian dish with succulent chicken in layers of fluffy rice, fragrant spices and fried onions. It is easier than most recipes while retaining the original taste and presented step by step. Cook like a native but with more ease!Hyderabad, the city of my childhood, is justly famous for its biryani - an addictive delicious rice and meat/chicken dish. And Hyderabadi biryani is by far the most favored among the other regional versions."
+        
+    },
+    {
+        
+        "service_id": "04",
+        "title": "Beef Kacchi Biryani",
+        "img": "https://img.freepik.com/premium-photo/mutton-biryani-food-photography_162831-2.jpg?w=996",
+        "price": "30$",
+        "description": "The term “kachchi” means raw referring to the biryani ingredients being combined raw in layers instead of first cooking the meat or rice separately. Traditionally, kachchi biryani is cooked in clay oven and the cooking pot is usually sealed with flour dough to allow the biryani to cook in its own steam.  The sealed pot is not opened until the biryani is ready to be served.  Several years ago when I was just starting as a novice cook, I was told many a times that kachchi biryani cannot be made in conventional oven or it wouldn’t taste as good."
+        
+    },
+    {
+      
+        "service_id": "05",
+        "title": "Vanila Cake",
+        "img": "https://img.freepik.com/free-photo/sponge-cake-with-strawberries-top_144627-45517.jpg?w=900&t=st=1667927554~exp=1667928154~hmac=ae98aed3d6fc8726c416bb5ac19135afe5e39dbd846e737a8175b840e5a87179",
+        "price": "20$",
+        "description": "This is my best vanilla cake recipe. A classic butter cake but with Japanese techniques applied for the most plush, soft and moist yellow cake like you’ve never had before. This professional bakery style cake stays fresh and moist for 4 days — that’s unheard of! Use the same batter for perfect Vanilla Cupcakes.This is a reader favourite recipe included by popular demand in my debut cookbook “Dinner”.Plush, moist, fluffy crumb without being freakishly unnaturally so (as some store bought can be). No more dense cakes!Keeps near perfectly for 4 whole days. 100% fresh on Day 1, still 96% perfect on Day 4. That’s unheard of!"
+    
+    },
+    {
+       
+        "service_id": "06",
+        "title": "Beef Burger",
+        "img": "https://img.freepik.com/free-photo/front-view-burger-stand_141793-15542.jpg?w=996&t=st=1667927617~exp=1667928217~hmac=24dc7278374e08eda1f27cc8345c7ed3f8eec289ae52db5a558305812a558d2c",
+        "price": "12$",
+        "description": "The ever popular beef burger has moved on from a fast food staple to a gourmet delight, with hundreds of restaurants springing up solely dedicated to the pursuit of the perfect patty. With this collection of beef burger recipes you can find out how to recreate the much-loved classic in your own home, whether you're looking to add something special to a barbecue or simply make a hearty supper that can be enjoyed by all the family.Cheeseburgers are always a popular choice, offering that combination of juicy meat and gently melting cheese which few can resist."
+       
+    }
+]
