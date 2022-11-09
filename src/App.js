@@ -11,6 +11,7 @@ import NotFound from './NotFound';
 import Blog from './Pages/Blog/Blog';
 import MyReviews from './Pages/Reviews/MyReviews';
 import Addservices from './Pages/Services/Addservices';
+import ServicesDetails from './Pages/Services/ServicesDetails';
 
 function App() {
 
@@ -52,6 +53,13 @@ function App() {
         path: '/addservices', 
         element: <Addservices></Addservices>
      },
+
+     {
+      path: '/services/:id', 
+      loader: ({ params }) =>
+      fetch(`http://localhost:5000/services/${params.id}`),
+      element: <ServicesDetails></ServicesDetails>
+   },
 
         {
           path: "*",

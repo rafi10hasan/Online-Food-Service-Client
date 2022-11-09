@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const ServiceCard = ({ service }) => {
   const { _id, img, price, title,description } = service;
@@ -14,8 +15,10 @@ const ServiceCard = ({ service }) => {
           <Card.Text>
             {description.slice(0,200)}...
           </Card.Text>
-
-          <Button variant="primary">Go Details</Button>
+            <Link to={`/services/${_id}`}>
+            <Button variant="primary">Go Details</Button>
+            </Link>
+          
         </Card.Body>
       </Card>
     </div>
@@ -23,3 +26,4 @@ const ServiceCard = ({ service }) => {
 };
 
 export default ServiceCard;
+
