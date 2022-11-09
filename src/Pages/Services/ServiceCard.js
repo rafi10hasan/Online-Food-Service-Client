@@ -13,7 +13,7 @@ const ServiceCard = ({ service }) => {
           <Card.Title>{title} </Card.Title>
           <h6>{price}</h6>
           <Card.Text>
-            {description.slice(0,200)}...
+            {description.slice(0, 100)}...
           </Card.Text>
             <Link to={`/services/${_id}`}>
             <Button variant="primary">Go Details</Button>
