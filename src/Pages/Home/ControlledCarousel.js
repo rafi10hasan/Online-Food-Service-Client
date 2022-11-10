@@ -36,7 +36,7 @@ const ControlledCarousel = () => {
           </div>
   
           <Carousel.Caption>
-            <p>I'm john doe. This is the place where I share restaurant quality recipes you can easily make at home. I'm bringing back the family dinner in a really delicious way!</p>
+            <p>I'm john doe. This is the place where I share restaurant quality recipes you can easily make at home. I'm bringing back the family dinner in a really delicious way!!</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
