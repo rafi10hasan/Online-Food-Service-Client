@@ -1,3 +1,10 @@
+1.This project is buld by React.js
+2.Firebase connection is added for Login,Registration
+3.MongoDb used for database
+4.react router dom,hooks,usecontext is used in this project.
+5.React Bootstrap is used for designing.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

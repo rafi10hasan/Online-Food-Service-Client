@@ -39,7 +39,7 @@ const MyreviewsCard = ({review}) => {
           <p> <b>Reviews:</b>{reviews} </p>
           <button className='btn' onClick={() => handledeletereview(review._id)}> x </button>
 
-            <button className='btn btn-outline-success'><Link to={`/update/${review._id}`}> Update Review</Link> </button>
+            <button className='btn btn-primary '><Link className='text-decoration-none text-white' to={`/update/${review._id}`}> Update Review</Link> </button>
           
         </div>
       </div>

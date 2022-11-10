@@ -48,6 +48,7 @@ const UpdateReview = () => {
     <div>
       
       <h1 className=" text-center">{reviews.name} </h1>
+      
       <div className="container w-75 bg-login py-2 rounded mt-5">
         <form onSubmit={handleUpdateReviews}>
           <div class="mb-3">
