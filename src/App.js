@@ -45,17 +45,26 @@ function App() {
 
         {
           path: "/myreviews",
-          element: <PrivateRoute><MyReviews></MyReviews></PrivateRoute>,
+          element: (
+            <PrivateRoute>
+              <MyReviews></MyReviews>
+            </PrivateRoute>
+          ),
         },
 
         {
           path: "/addservices",
-          element: <PrivateRoute><Addservices></Addservices></PrivateRoute>,
+          element: (
+            <PrivateRoute>
+              <Addservices></Addservices>
+            </PrivateRoute>
+          ),
         },
 
         {
           path: "/services/:id",
-          loader: ({ params }) => fetch(`http://localhost:5000/services/${params.id}`),
+          loader: ({ params }) =>
+            fetch(`https://cloud-kitchen-tau.vercel.app/services/${params.id}`),
           element: <ServicesDetails></ServicesDetails>,
         },
         {

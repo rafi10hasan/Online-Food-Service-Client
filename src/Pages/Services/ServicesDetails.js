@@ -14,7 +14,7 @@ const ServicesDetails = () => {
   const [reviews, setReviews] = useState([]);
   useTitle("reviews");
   useEffect(() => {
-    fetch("http://localhost:5000/reviews")
+    fetch("https://cloud-kitchen-tau.vercel.app/reviews")
       .then((res) => res.json())
       .then((data) => setReviews(data));
   }, []);
@@ -30,7 +30,7 @@ const ServicesDetails = () => {
     const additems = { name, image, rating, reviews, id, email };
 
     //send data
-    fetch("http://localhost:5000/reviews", {
+    fetch("https://cloud-kitchen-tau.vercel.app/reviews", {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -93,7 +93,6 @@ const ServicesDetails = () => {
                 </label>
                 <textarea type="text" class="form-control" name="reviews" required />
               </div>
-
 
               <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">

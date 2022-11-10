@@ -4,16 +4,15 @@ import { AuthContext } from "../../contexts/Authprovider/Authprovider";
 import useTitle from "../../Hooks/useTitle";
 
 const UpdateReview = () => {
-    const { user } = useContext(AuthContext);
+  const { user } = useContext(AuthContext);
   const { id } = useParams();
   const [reviews, setReviews] = useState([]);
   useTitle("services");
   useEffect(() => {
-    fetch(`http://localhost:5000/reviews/${id}`)
+    fetch(`https://cloud-kitchen-tau.vercel.app/reviews/${id}`)
       .then((res) => res.json())
       .then((data) => setReviews(data));
   }, []);
-
 
   const handleUpdateReviews = (event) => {
     event.preventDefault();
@@ -26,7 +25,7 @@ const UpdateReview = () => {
     const additems = { name, image, rating, reviews, id, email };
 
     //send data
-    fetch(`http://localhost:5000/reviews/${id}`, {
+    fetch(`https://cloud-kitchen-tau.vercel.app/reviews/${id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",
@@ -39,33 +38,37 @@ const UpdateReview = () => {
         alert("Item Added successfully");
         event.target.reset();
       });
-
-
   };
-
 
   return (
     <div>
-      
       <h1 className=" text-center">{reviews.name} </h1>
-      
+
       <div className="container w-75 bg-login py-2 rounded mt-5">
         <form onSubmit={handleUpdateReviews}>
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">
               Use Name
             </label>
-            <input 
-            defaultValue={reviews.name}
-            type="text" class="form-control" name="name" required />
+            <input
+              defaultValue={reviews.name}
+              type="text"
+              class="form-control"
+              name="name"
+              required
+            />
           </div>
           <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">
               User Image
             </label>
-            <input 
-            defaultValue={reviews.image}
-            type="text" class="form-control" name="image" required />
+            <input
+              defaultValue={reviews.image}
+              type="text"
+              class="form-control"
+              name="image"
+              required
+            />
           </div>
 
           <div class="mb-3">
@@ -73,17 +76,25 @@ const UpdateReview = () => {
               Rating
             </label>
             <input
-            defaultValue={reviews.rating}
-             type="number" class="form-control" name="rating" required />
+              defaultValue={reviews.rating}
+              type="number"
+              class="form-control"
+              name="rating"
+              required
+            />
           </div>
 
           <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">
               Review
             </label>
-            <textarea 
-            defaultValue={reviews.rating}
-            type="text" class="form-control" name="reviews" required />
+            <textarea
+              defaultValue={reviews.rating}
+              type="text"
+              class="form-control"
+              name="reviews"
+              required
+            />
           </div>
 
           {/* <div class="mb-3">
@@ -110,8 +121,6 @@ const UpdateReview = () => {
               readOnly
               class="form-control"
               name="email"
-              
-              
             />
           </div>
 
