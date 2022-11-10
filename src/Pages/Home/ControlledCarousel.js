@@ -20,8 +20,8 @@ const ControlledCarousel = () => {
           />
          </div>
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+           
+            <p>I'm Rachel Farnsworth. This is the place where I share restaurant quality recipes you can easily make at home. I'm bringing back the family dinner in a really delicious way!</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -36,8 +36,7 @@ const ControlledCarousel = () => {
           </div>
   
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>I'm john doe. This is the place where I share restaurant quality recipes you can easily make at home. I'm bringing back the family dinner in a really delicious way!</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -52,9 +51,9 @@ const ControlledCarousel = () => {
          </div>
   
           <Carousel.Caption>
-            <h3>Third slide label</h3>
+            
             <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              I'm Rachel Farnsworth. This is the place where I share restaurant quality recipes you can easily make at home. I'm bringing back the family dinner in a really delicious way!
             </p>
           </Carousel.Caption>
         </Carousel.Item>

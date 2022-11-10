@@ -2,6 +2,7 @@ import React from 'react';
 import useTitle from '../../Hooks/useTitle';
 import ControlledCarousel from './ControlledCarousel';
 import Firstsection from './Firstsection';
+import Seconsection from './Seconsection';
 import Threeservicecard from './Threeservicecard';
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
             <ControlledCarousel></ControlledCarousel>
             <Firstsection></Firstsection>
             <Threeservicecard></Threeservicecard>
+            <Seconsection></Seconsection>
         </div>
     );
 };

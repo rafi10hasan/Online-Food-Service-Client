@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
+import { AuthContext } from "../../contexts/Authprovider/Authprovider";
 import useTitle from "../../Hooks/useTitle";
 
 const Addservices = () => {
+  const { user } = useContext(AuthContext);
   useTitle('Addservice')
     const handleAdduser = event=>{
         event.preventDefault();
@@ -96,6 +98,8 @@ const Addservices = () => {
            class="form-control"
            name="email"
            required
+           defaultValue={user?.email}
+           readOnly
             />
         </div>
 
