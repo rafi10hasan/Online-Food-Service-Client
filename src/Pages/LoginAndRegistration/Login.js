@@ -29,10 +29,10 @@ const Login = () => {
               console.log(currentUser);
 
               // get jwt token
-              fetch('http://localhost:5000/jwt', {
+              fetch('https://cloud-kitchen-tau.vercel.app/jwt', {
                   method: 'POST',
                   headers: {
-                      'content-type': 'application/json'
+                      'content-type': 'application/json' 
                   },
                   body: JSON.stringify(currentUser)
               })
