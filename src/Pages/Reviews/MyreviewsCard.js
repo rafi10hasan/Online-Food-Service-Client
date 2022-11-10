@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import useTitle from '../../Hooks/useTitle';
 
 const MyreviewsCard = ({review}) => {
@@ -37,6 +38,9 @@ const MyreviewsCard = ({review}) => {
           <h6>Rating: {rating} </h6>
           <p> <b>Reviews:</b>{reviews} </p>
           <button className='btn' onClick={() => handledeletereview(review._id)}> x </button>
+
+            <button className='btn btn-outline-success'><Link to={`/update/${review._id}`}> Update Review</Link> </button>
+          
         </div>
       </div>
     </div>
